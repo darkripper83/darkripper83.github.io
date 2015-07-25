@@ -1,0 +1,29 @@
+# Site settings
+title: Gianluca Giardino's Portfolio
+email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://localhost:4000/" # the base hostname & protocol for your site
+paginate: 5
+paginate_path: "/blog/page:num/"
+twitter_username: darkripper
+facebook_username: darkripper
+github_username: darkripper
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      author: Gianluca Giardino
+      layout: "post"
