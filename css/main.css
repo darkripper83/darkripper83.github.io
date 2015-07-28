@@ -118,6 +118,13 @@ section h3 { font-size: 1.5em; }
   background: #fff;
 }
 
+.outside-link a::after {
+
+  content: "&#9734;";
+  font-size: 0.5em;
+
+}
+
 footer {
 
   max-width: 940px;
