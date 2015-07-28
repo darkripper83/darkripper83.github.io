@@ -120,7 +120,7 @@ section h3 { font-size: 1.5em; }
 
 .outside-link a::after {
 
-  content: "\u2606";
+  content: "&#9734;";
   font-size: 0.5em;
 
 }
